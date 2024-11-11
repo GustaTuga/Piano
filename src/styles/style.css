@@ -132,3 +132,55 @@ header .column span {
 .piano-keys .key.hide span {
     display: none;
 }
+
+.container .column.volume-slider input[type="range"] {
+    width: 100%;
+    height: 8px; 
+    background: #434343; 
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.container .column.volume-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px; 
+    height: 20px; 
+    background-color: #fff; 
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.container .column.volume-slider input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+@media (max-width: 660px) {
+    .container {
+        width: 580px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        width: 400px;
+    }
+
+    .container .column.keys-check {
+        display: none;
+    }
+    
+    .piano-keys span {
+        display: none;
+    }
+
+    .piano-keys {
+        margin-left: -10%;
+        width: 120%;
+    }
+}
