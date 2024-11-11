@@ -49,4 +49,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* para re
 
 ## 📜 Licença
 
-Este projeto é licenciado sob a [](LICENSE).
+Este projeto é licenciado sob a [LICENSE](LICENSE).
